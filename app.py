@@ -9,7 +9,7 @@ data = {
 }
 df = pd.DataFrame(data)
 
-tab1, tab2, tab3 = st.tabs(["SQL SELECT", "SQL INSERT", "SQL UPDATE"])
+tab1, tab2, tab3 = st.tabs(["Query content :", "SQL INSERT", "SQL UPDATE"])
 
 with tab1:
     sql_query = st.text_area(label="Input content")
